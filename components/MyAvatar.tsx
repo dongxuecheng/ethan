@@ -7,8 +7,8 @@ import {
 export function MyAvatar() {
     return (
         <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>Avatar</AvatarFallback>
+            <AvatarImage src="/lalaland.jpg" alt="@shadcn" />
+            <AvatarFallback>Ethan</AvatarFallback>
         </Avatar>
     )
 }

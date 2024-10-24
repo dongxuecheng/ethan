@@ -1,6 +1,5 @@
 "use client"
 
-import * as React from "react"
 import Link from "next/link"
 
 import {
@@ -16,7 +15,7 @@ import { ModeToggle } from "@/components/ModeToggle"
 
 export function Header() {
     return (
-        <header className="flex justify-center items-center h-16">
+        <header className="flex justify-center items-center h-14">
             <NavigationMenu>
                 <NavigationMenuList className="flex space-x-4">
                     <NavigationMenuItem>

@@ -59,18 +59,19 @@ export default function Blog({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <section className='prose dark:prose-invert mx-auto justify-center flex flex-col space-y-0'>
-      <h1 className="title font-semibold text-2xl">
-        {post.metadata.title}
-      </h1>
-      
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          {formatDate(post.metadata.publishedAt)}
-        </p>
-      
-      <article className="">
-      <MDXRemote source={post.content}/>
-      </article>
-    </section>
+<section className="prose dark:prose-invert w-full max-w-4xl mx-auto  flex flex-col space-y-0 px-4 sm:px-6 lg:px-8 py-4">
+  <h1 className="title font-semibold text-2xl text-center">
+    {post.metadata.title}
+  </h1>
+  
+  <p className="text-sm text-neutral-600 dark:text-neutral-400 text-center">
+    {formatDate(post.metadata.publishedAt)}
+  </p>
+  
+  <article>
+    <MDXRemote source={post.content} />
+  </article>
+</section>
+
   )
 }

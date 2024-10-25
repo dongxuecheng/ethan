@@ -100,7 +100,7 @@ export function AboutMeCarousel() {
               <Card>
               <CardHeader>
               <CardTitle>Development Tools</CardTitle>
-              <CardDescription>开发开具</CardDescription>
+              <CardDescription>开发工具</CardDescription>
               </CardHeader>
                 <CardContent className="space-y-2">
                     <ul className="space-y-2">

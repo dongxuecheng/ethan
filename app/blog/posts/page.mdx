@@ -1,0 +1,38 @@
+---
+title: 'test1 next.js博客搭建教程'
+publishedAt: '2024-04-08'
+summary: 'Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think.'
+---
+
+## This is a heading
+ 
+This is a list in markdown:
+ 
+- One
+- Two
+- Three
+
+
+## Enhanced Readability and Maintainability
+
+Static typing makes code more readable and maintainable. By explicitly declaring types, developers provide a clear contract of what the code does, making it easier for others (or themselves in the future) to understand and modify the codebase.
+
+## Facilitates Tooling and Refactoring
+
+Modern IDEs leverage static typing to offer advanced features like code completion, refactoring, and static analysis. These tools can automatically detect issues, suggest fixes, and safely refactor code, enhancing developer productivity and reducing the likelihood of introducing bugs during refactoring.
+
+```csharp
+// Refactoring example: Renaming a method in C#
+public class Calculator {
+    public int Add(int a, int b) {
+        return a + b;
+    }
+}
+
+// After refactoring `Add` to `Sum`, all references are automatically updated.
+public class Calculator {
+    public int Sum(int a, int b) {
+        return a + b;
+    }
+}
+```

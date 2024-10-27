@@ -45,7 +45,7 @@ npm run dev
 
 - **Next.js**: 用于构建 React 应用的框架。
 - **Tailwind CSS**: 用于快速构建样式的 CSS 框架。
-- **Radix UI**: 提供一组无样式的、可访问的 UI 组件。
+- **Shadcn/UI**: 提供一组无样式的、可访问的 UI 组件。
 
 ## 项目结构
 

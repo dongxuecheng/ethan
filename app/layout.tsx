@@ -33,6 +33,7 @@ export default function RootLayout({
           <Header />
           <main className="flex flex-grow">
             {children}
+            <Analytics />
           </main>
 
           <Footer />

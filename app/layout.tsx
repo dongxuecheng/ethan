@@ -4,7 +4,7 @@ import { Header } from "@/components/Header";
 import { ThemeProvider } from "@/components/Themeprovider"
 import { Footer } from "@/components/Footer";
 import { Inter } from 'next/font/google'
-
+import { Analytics } from "@vercel/analytics/react"
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
   subsets: ['latin'],
